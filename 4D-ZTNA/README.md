@@ -71,7 +71,7 @@ The following summarizes the goal of each section.
 
 # Disclaimers
 
-These configurations are for basic ZTNA deployment on the primary components of the solution, based on FortiOS 7.0.5 and FortiClient EMS 7.0.2. While configurations will be compatible with newer builds, extra caution should be taken when installing these settings on earlier builds.
+These configurations are for basic ZTNA deployment on the primary components of the solution, based on *FortiOS 7.0.5* and *FortiClient EMS 7.0.2*. While configurations will be compatible with newer builds, extra caution should be taken when installing these settings on earlier builds.
 
 Further design considerations should be taken by reviewing the [ZTNA Architecture Guide](https://docs.fortinet.com/document/fortigate/7.0.0/ztna-architecture/800134/introduction) and [ZTNA Deployment Guide](https://docs.fortinet.com/document/fortigate/7.0.0/ztna-deployment/813800/introduction). Design decisions may include:
 
