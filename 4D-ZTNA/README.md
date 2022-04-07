@@ -1,12 +1,15 @@
 # ZTNA demonstration configurations (4-D)
 
 4-D Demo configurations are a collection of configurations which complement the preceding 3 Ds: Define, Design, and Deploy. The sample configurations can be used as a template to build your own ZTNA solution, or used as reference during your deployment.
+
 It is recommended to first review the [ZTNA Architecture Guide](https://docs.fortinet.com/document/fortigate/7.0.0/ztna-architecture/800134/introduction) and [ZTNA Deployment Guide](https://docs.fortinet.com/document/fortigate/7.0.0/ztna-deployment/813800/introduction) found in the [ZTNA 4-D Resource hub](https://docs.fortinet.com/4d-resources/ZTNA) before proceeding further.
+
 Additionally, head to the [ZTNA Solution Hub](https://docs.fortinet.com/ztna) for more extensive links to documentation related to ZTNA.
 
 # Overview
 
-The primary goal of *Zero Trust Network Access (ZTNA)* is to allow an organization to provide remote access to protected resources while granting user access based on the authenticity of the client, their security posture and user authentication. This is accomplished by synchronizing information about the endpoints between the FortiClient, FortiClient EMS and the FortiGate.
+The primary goal of **Zero Trust Network Access (ZTNA)** is to allow an organization to provide remote access to protected resources while granting user access based on the authenticity of the client, their security posture and user authentication. This is accomplished by synchronizing information about the endpoints between the FortiClient, FortiClient EMS and the FortiGate.
+
 The following topology illustrates an environment where multiple Fortinet products are deployed.
 
 Required:
@@ -18,12 +21,15 @@ Optional:
 - FortiAnalyzer
 - FortiAuthenticator
 
+While FortiAnalyzer and FortiAuthenticator are optional, these devices are recommended in larger deployments where centralized logging, monitoring, reporting and authentication is desired.
+
 ## Topology
 ![ZTNA Demo Topology](https://fortinetweb.s3.amazonaws.com/docs.fortinet.com/v2/resources/8ddfc8d2-9b21-11ec-9fd1-fa163e15d75b/images/49d98988a19e8978bb0553e80a3c331d_deployment_topo.png "ZTNA Demo Topology") 
 
 # How to
 The sample configuration is based in large part on the example provided in the [ZTNA Deployment Guide](https://docs.fortinet.com/document/fortigate/7.0.0/ztna-deployment/813800/introduction). You can follow the [deployment procedures](https://docs.fortinet.com/document/fortigate/7.0.0/ztna-deployment/260520/deployment-procedures) step by step to configure ZTNA in your environment, or you can use the configuration snippets in the sample configuration to quickly launch your environment.
-Download the sample configuration ZTNA-demo-config.txt. Examine the file and adapt the settings to your environment.
+
+Download the sample configuration [ZTNA-demo-config.txt](./ZTNA-demo-config.txt). Examine the file and adapt the settings to your environment.
 
 - This sample file is split into the multiple sections. Each section contains command line settings and debugs.
 - The configuration snippets correspond to IP addressing in the topology diagram above. Modify names, addresses, ports and other references to fit your environment
